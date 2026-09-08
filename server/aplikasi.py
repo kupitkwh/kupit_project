@@ -21,15 +21,6 @@ app = Flask(
 CORS(app)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# =========================
-# FIREBASE ADMIN
-# =========================
-# firebase_json = os.environ.get("FIREBASE_KEY")
-# cred_dict = json.loads(firebase_json)
-# cred = credentials.Certificate(cred_dict)
-
-# if not firebase_admin._apps:
-#     firebase_admin.initialize_app(cred)
 
 print("⚠ Firebase sementara dimatikan")
 # FILE CSV
